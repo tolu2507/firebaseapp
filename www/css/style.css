@@ -1,0 +1,47 @@
+.main{
+    padding: 5px;
+    background-color: white;
+    border-radius: .5rem;
+    margin: 4rem;
+    width: 99%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: large;
+    box-shadow: 0px 5px 20px rgba(51, 25, 25, 0.5);
+}
+.main-buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.main-buttons button{
+    padding: 1rem;
+    width: 45%;
+    font-weight: bolder;
+    font-size: medium;
+    border: none;
+    border-radius: 2rem;
+}
+#btn{
+    background-color: lightskyblue;
+}
+#btn:hover{
+    background-color: blue;
+}
+#nav-btn{
+    background-color: lightgreen;
+}
+#nav-btn:hover{
+    background-color: green;
+}
+ul{
+    list-style-type: none;
+}
+@media only screen and (max-width: 400px) {
+    .main{
+        margin: .5rem;
+        width: 95%;
+        box-shadow: 0px 5px 20px rgba(71, 26, 26, 0.8);
+    }
+}

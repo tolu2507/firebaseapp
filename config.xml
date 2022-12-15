@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.firebaseapp.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>firebaseapp</name>
+    <description>Sample Apache Cordova App</description>
+    <author email="dev@cordova.apache.org" href="https://cordova.apache.org">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <preference name="AndroidXEnabled" value="true" />
+    <platform name="android">
+        <preference name="KeepRunning" value="false"/>
+       <preference name="LoadUrlTimeoutValue" value="10000"/>
+       <preference name="InAppBrowserStorageEnabled" value="true"/>
+       <preference name="LoadingDialog" value="My Title,My Message"/>
+       <preference name="ErrorUrl" value="myErrorPage.html"/>
+       <preference name="ShowTitle" value="true"/>
+       <preference name="LogLevel" value="VERBOSE"/>
+       <preference name="AndroidLaunchMode" value="singleTop"/>
+       <preference name="AndroidInsecureFileModeEnabled" value="true" />
+       <preference name="DefaultVolumeStream" value="call" />
+       <preference name="OverrideUserAgent" value="Mozilla/5.0 My Browser" />
+       <preference name="AppendUserAgent" value="My Browser" />
+       <preference name="GradlePluginGoogleServicesEnabled" value="true" />
+       <preference name="GradlePluginGoogleServicesVersion" value="4.2.0" />
+       <preference name="AndroidXEnabled" value="true" />
+    </platform>
+</widget>
