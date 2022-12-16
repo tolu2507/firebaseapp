@@ -1,4 +1,78 @@
 body{
-    margin: none;
+    background-color: whitesmoke;
     color: black;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    color: brown;
+    align-items: center;
+    width: 95%;
+    background-color: black;
+    text-shadow: 1rem bisque;
+}
+.was-validated{
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    box-shadow: 0px 5px 20px rgba(51, 25, 25, 0.5);
+}
+.form-group{
+    margin: 2rem;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 35%;
+    border-radius: 1rem;
+    color: black;
+}
+input, button {
+    width: 100%;
+    border: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: greenyellow;
+    color: black;
+}
+button:hover{
+    background-color: green;
+}
+input{
+    width: 94%;
+    background-color: white;
+}
+h2{
+    color: darkred;
+    animation: forwards;
+}
+.main{
+    margin:.5rem;
+}
+.card-p1{
+    border:.1rem darkred solid;
+    border: 1rem;
+    background-color: rgba(127, 255, 212, 0.274);
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+@media only screen and (max-width: 700px) {
+    .login {
+        width: 95%;
+    }
+    .was-validated{
+        margin: 0rem;
+        box-shadow: none;
+    }
+    /* .container{
+        width: 100%;
+    } */
 }
